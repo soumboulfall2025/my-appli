@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", serif;
+    color: black;
+    background-color: #333;
+}
+/* barre nav */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background: color #cfcaca91;
+}
+input{
+    background-color: rgb(233, 219, 219);
+    color: aqua;
+}
+/* fin barre nav */
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: transparent;
+    color: white;
+
+}
+header h2{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+header button{
+    margin: 15px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #333;;
+}
+
+/* fin de header */
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* fin footer */
